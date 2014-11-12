@@ -21,6 +21,7 @@ using namespace std;
 
 int main()
 {
+    double a, b;
     cin >> a >> b;
     if (a > b) cout << "The greater number is " << a;
     else cout << "The greater number is " << b;
@@ -33,6 +34,7 @@ using namespace std;
 
 int main()
 {
+    double a, b, c, temp;
     cin >> a >> b >> c;
     if (a > b)
     {
@@ -62,6 +64,7 @@ using namespace std;
 
 int main()
 {
+    double x, y;
     cin >> x >> y;
     if (x = 0 && y = 0)
         cout << "The point is (0, 0)";
@@ -81,6 +84,7 @@ using namespace std;
 
 int main()
 {
+    float a, b, x;
     cin >> x;
     cin >> a >> b;
     if (x >= a && x <= b) cout << "x is in [a, b]";
@@ -94,7 +98,9 @@ int main()
 using namespace std;
 
 int main()
-{   cin >> x >> y;
+{
+    double x, y;
+    cin >> x >> y;
     cout << "Точката е на разстояние " << y << "от страната с краища (0, 0) и (1, 0)";
     cout << "Точката е на разстояние " << 1 - y << "от страната с краища (0, 1) и (1, 1)";
     cout << "Точката е на разстояние " << x << "от страната с краища (0, 0) и (0, 1)";
@@ -108,6 +114,7 @@ using namespace std;
 
 int main()
 {
+    float a, b;
     cin >> a >> b;
     if(a < b)
     {
