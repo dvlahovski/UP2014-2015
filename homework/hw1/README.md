@@ -1,6 +1,7 @@
 ## Homework 0
 
 #### Deadline - 01.12.2014 23:56
+#### Send homeworks to kn42014@gmail.com
 
 ### Task 0
 Write a program, which reads from the standart input (using cin) the coordinates of 6 points and prints "true" or "false" if the
@@ -75,6 +76,10 @@ Print all the circular primes below 1000 (every number on a new line)
 
 #### Important: scoring the homeworks and format ####
 Every task should be in a separate file, named task#.cpp where # is the number of the task.
+Send the cpp files in an zip archive (rar is not allowed)
+Write your name, group and faculty number in the mail (and optionally in the files (as comments))
+Don't send anything else (like the project files from Visual Studio, send ONLY the source files (*.cpp))
+
 You read the input data, make your calculations, and print the output and exit (no more, no less)
 Please, keep in mind that for every task a specific format is given both for input and output data. This is so, because
 the homeworks will be automatically checked - that means that a program (written by us) will run each homework, give
